@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(240, 237, 245);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: rgb(41, 40, 40);
+  font-size: 30px;
+}
+
+h2 {
+  color: rgb(41, 40, 40);
+  font-size: 18px;
+}
+
+h3 {
+  color: rgb(41, 40, 40);
+  font-size: 18px;
+}
+
+p {
+  font-weight: 300;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 25px;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    background-color: rgb(250, 237, 245);
+  }
+}
