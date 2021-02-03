@@ -5,6 +5,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#click_me {
+  background-color: rgb(161, 119, 224);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#click_me:hover {
+  background-color: rgb(179, 151, 219);
+}
+
 h1 {
   color: rgb(41, 40, 40);
   font-size: 30px;
@@ -48,6 +60,13 @@ p {
 .list_inline {
   list-style: none;
   padding-left: 0px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    background-color: rgb(230, 245, 245);
+  }
 }
 
 @media (max-width: 540px) {
